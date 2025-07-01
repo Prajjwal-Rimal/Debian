@@ -1,2 +1,2 @@
-# Debian_Practice
+# Debian
 GNOME Debian
