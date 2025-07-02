@@ -33,3 +33,23 @@ Two ways to specify a path:
 </ol>
 </ol>
 
+## List Directories (ls)
+<ol>
+<li>
+This is used to list the directories and files in the working directory. We can also specify the path to list the directories of.
+</li>
+	ls home/janedoe
+
+<li>
+Not all files in a directory are visible some are hidden.
+</li>
+	viewed by passing the -a flag to the ls.
+
+<li>
+To see a detailed list of file use a long flag
+</li>
+	ls -l
+
+The  flags are options to the command. We can also combine the flags to execute them in the order they are opted.
+
+	ls -la or ls -al

@@ -50,5 +50,55 @@ cd - takes to the previous directory we were at
 	$ cd
 	$ pwd
 	/home/janedoe
-</ul> 
+</ul>
+
+<li> List Directories (ls)
+<ul>
+<li>List all directories : ls</li>
+	$ ls
+	Documents  Downloads  Music
+
+<li>List all directories including the hidden one's : ls -a</li>
+	$ ls -a
+	.  ..  .bashrc  .profile  Documents  Downloads  Music
+
+<li>list all the details of the directories : ls -l</li>
+	$ ls -l
+	drwxr-xr-x 2 user user 4096 Jul 1 11:00 Documents
+
+<li>List all the hidden directories and their details : ls -al / ls -la</li>
+	$ ls -al
+	$ ls -la
+	drwxr-xr-x 20 user user 4096 Jun 30 20:00 ..
+	-rw-r--r--  1 user user  220 Apr 15  2020 .bash_logout
+	-rw-r--r--  1 user user 3771 Apr 15  2020 .bashrc
+	-rw-r--r--  1 user user  807 Apr 15  2020 .profile
+	-rw-r--r--  1 user user 1024 Jul 1 12:00 a.txt
+
+<li>List all the files and directories including those that are in the sub directories : ls -R</li>
+	THIS DOESN'T SHOW THE HIDDEN FILES BY DEFAULT 
+	$ -R
+
+	Documents  Downloads  Music  
+
+	./Documents:
+	a.txt  b.pdf
+
+	./Downloads:
+	a.txt  b.pdf
+
+<li> List the directories in reverse order : ls -r</li>
+	$ ls
+	a.txt  b.txt  c.txt
+
+	$ ls -r
+	c.txt  b.txt  a.txt
+
+<li>List the directories in the last modified order (newest to the oldest) : ls -t</li>
+	$ ls -t
+	a.txt c.txt d.txt b.txt
+	newest first
+</ul>
+
+
 </ol>
