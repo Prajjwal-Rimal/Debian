@@ -1,4 +1,5 @@
 <center> <h3>Command Line </h3></center>
+
 ## Shell
 <ol>
 <li>takes commands form the keyboard and sends them to the os</li>
@@ -23,8 +24,10 @@ Two ways to specify a path:
 
 <ol>
 <li>Absolute => this is the path from the root directory. Starting with a slash (/) means starting from a root directory</li>
+
 	/home/janedoe/desktop
 <li>Relative => path from where you currently are in the file system. If present in a location and need to navigate inside a file or directory of that location then specification of the entire path is not necessary</li>
+
 	suppose we are in the /home/janedoe/desktop and we want to navigate to a document named xyz 
 	we can simply type xyz/ 
 </ol>
@@ -33,22 +36,27 @@ Two ways to specify a path:
 ## Commands
 <ol>
 <li>echo [text] => prints the typed text to the display</li>
+
 	$ echo hello world
 	hello world
 
 <li>date => displays the current time, timezone, and date</li>
+	
 	$ date
 	Mon Jul  1 02:01:49 AM +0630 2025
 
 <li>whoami => display the username </li>
+	
 	$ whoami
 	janedoe
 
 <li>pwd => print working directory, shows which directory you are in</li>
+	
 	$ pwd
 	/home/janedoe
 
 <li>cd => change directory, used to change directory when needed</li>
+	
 	lets say we are in document and we want to go to pictures
 	$ cd home/janedoe/pictures
 	
