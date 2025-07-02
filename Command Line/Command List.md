@@ -1,4 +1,3 @@
-
 ## Commands
 <ol>
 <li>echo [text] => prints the typed text to the display</li>
