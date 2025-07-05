@@ -73,3 +73,19 @@ in Linux a file can be named whatever we want to name it and the extension doesn
 <li>short for concatenate</li>
 <li>can also combine the output of multiple files</li> 
 </ol>
+
+## Less
+<ol>
+<li>less is more </li>
+<li>the command more also does a similar thing </li>
+<li>the text is displayes ina page manner</li>
+<li>keyboard commands can be used to navigate the file</li>
+<ul>
+<li>q: quit and go back to the shell </li>
+<li>arrow to navigate  </li>
+<li>g: moves to the beginning of the file </li>
+<li>G: moves to the end of the file </li>
+<li>/search: search for specific text inside the document prefacing the word you wanna search with / </li>
+<li>h: to get help on how to use less while in less </li>
+</ul>
+</ol>
