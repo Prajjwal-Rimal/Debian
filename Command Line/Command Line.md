@@ -56,3 +56,20 @@ To see a detailed list of file use a long flag
 The  flags are options to the command. We can also combine the flags to execute them in the order they are opted.
 
 	ls -la or ls -al
+</ol>
+
+## Touch
+<ol>
+<li>allows the user to create new empty files</li>
+<li> allows the user to change existing timestamp on the files, it does not delete or modify the content of the file.</li>
+</ol>
+
+## File
+in Linux a file can be named whatever we want to name it and the extension doesn't matter. Extensions are just the part of the file name and they do not define the file type. The file command checks the real file type.
+
+## Cat 
+<ol>
+<li>this command is used to display the file contents</li>
+<li>short for concatenate</li>
+<li>can also combine the output of multiple files</li> 
+</ol>

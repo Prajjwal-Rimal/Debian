@@ -107,5 +107,37 @@ cd - takes to the previous directory we were at
 	newest first
 </ul>
 
+<li>
+Touch
 
+<ul>
+<li>
+
+	$touch newtouchtestfile
+	This creates a new blank file
+</li>
+<li>
+
+	$touch newtouchtestfile
+	Doing this on an existing file updates its time stamp
+</li>
+</ul>
+</li>
+
+<li>
+File
+
+	$file <filename>
+	this gives us the real type of a file
+</li>
+
+<li>
+Cat
+
+	$cat <filename>
+	shows the content of the file
+
+	$cat <filename><filename>
+	shows the content of two different files
+</li>
 </ol>
