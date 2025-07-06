@@ -148,4 +148,17 @@ Less
 	allows us to see our document in a paged manner
 </li>
 
+
+<li>
+History
+
+	$ history
+	displays the list of all the commands theat have been used
+
+	$ ctrl + R 
+	opens a reverse search in which you can search for commands from the history.
+
+	$ clear
+	 this clears the terminal screen useful when it feels cluttered. 	
+</li>
 </ol>

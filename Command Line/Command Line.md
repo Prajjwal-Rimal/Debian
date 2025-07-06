@@ -89,3 +89,13 @@ in Linux a file can be named whatever we want to name it and the extension doesn
 <li>h: to get help on how to use less while in less </li>
 </ul>
 </ol>
+
+
+## History
+<ol>
+<li>We have a history command that allows to look through our previously typed commands.
+<li>Arrow keys can also be used to navigate through the history. 
+<li>Similarly another history short cut is ctrl + R is the reverse search command. 
+<li>We can also clear our display with the clear Command. 
+<li>In the command line we have auto tab completion which is helpful when we are typing the name of a file, directory, command etc. 
+</ol>
