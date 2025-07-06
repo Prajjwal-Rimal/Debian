@@ -140,4 +140,12 @@ Cat
 	$cat <filename><filename>
 	shows the content of two different files
 </li>
+
+<li>
+Less
+	
+	$ less 'Command List.md'
+	allows us to see our document in a paged manner
+</li>
+
 </ol>
