@@ -99,3 +99,35 @@ in Linux a file can be named whatever we want to name it and the extension doesn
 <li>We can also clear our display with the clear Command. 
 <li>In the command line we have auto tab completion which is helpful when we are typing the name of a file, directory, command etc. 
 </ol>
+
+
+## Copy
+<ol>
+<li> it is much like copy pasting files in other os the only difference this is done by the terminal  </li>
+<li> $ cp <filename> < path to copy at >
+<li> we can also use wildcards  </li>
+<li> wildcard is a character that can be substituted for a pattern based selection  </li>
+<ul>
+<li> * => matches any number of characters  </li>
+<li> ? matches a single character  </li>
+<li> [] matches any one character in the bracket  </li>
+</ul>
+<li> cp *.jpg /home/user/Pictures This command copies all the jpg files to the given path </li>
+<li> -r flag is used to copy directories and their content  </li>
+</ul>
+<li> if we copy a file to a directory that has a same filename, THE FILE WILL BE OVERWRITTEN  </li>
+<li> -i flag gives an interactive prompt before overwriting the file </li>
+<li> -v flag shows what is being copied </li>
+</ol>
+
+## Move 
+<ol>
+<li> used for moving files and renaming them  </li>
+<li> similar to cp command in terms of flags and functionality </li>
+<li> we can rename files </li>
+<li> we can move files to a different directory </li>
+<li> we can move more than one file </li>
+<li> we can rename directories as well </li>
+<li> like copy if we move a file or a directory it will overwrite anything in the same directory so we can use the -i to prompt overwrite it </li>
+<li> we can also create a backup file and it will rename the old version with a  ~ </li>
+</ol>
