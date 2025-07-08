@@ -131,3 +131,67 @@ in Linux a file can be named whatever we want to name it and the extension doesn
 <li> like copy if we move a file or a directory it will overwrite anything in the same directory so we can use the -i to prompt overwrite it </li>
 <li> we can also create a backup file and it will rename the old version with a  ~ </li>
 </ol>
+
+
+## Make Directory
+helps to create a directory if it doesn't exist, we can also create sub-directories by using the  -p (parent) flag
+
+## Remove
+
+<ol>
+<li> remove command is used to delete file and directories </li>
+<li> once removed no way to recover them back </li>
+<li> write protected files will prompt for confirmation same for write protected directories </li>
+<li> few flags: </li>
+<ul>
+<li> -f: is used to force remove files whether write protected or not, no prompts </li>
+<li> -i: will prompt if we want to remove the files and directories or not </li>
+<li> -r: to remove a directory we need to add the recursive flag to delete all files and directories that a sub-directory may contain </li>
+</ul>
+<li> We also have a remove directory command to remove a directory </li>
+</ol>
+
+## Find
+
+<ol>
+<li> We can search for a file by using the find command </li>
+<li> we need to specify the directory we are searching the file at followed by what we are searching for </li>
+<li> we can also specify the type of file we need to find </li>
+<ul>
+<li> find /home -type d -name folder </li>
+<li> type d means we are looking for directories, not files. </li>
+<li> MyFolder is the name of the folder we want to find. </li>
+</ul>
+<li> find command will also look into the sub-directories </li>
+</ol>
+
+## Help
+<ol>
+<li> is a built in bash command that provides help for other bash commands </li>
+<li>tells us what a command does and what options we can use with the command </li>
+<li> we also have an option --help for other programs , gives us quick explanation of the commands and the flags we can use with it</li>
+<li> when we need help with the built in bash command (echo, cd, pwd,exit) we use help, 
+<br>
+when we need help with other commands/programs like (ls, cp, grep) we use the --help, 
+<br>
+when you want the full details use the man command </li>
+</ol>
+
+
+## Man 
+stands for manual, these are default to most Linux operating systems, they provide documentation about commands.
+
+## Whatis
+
+whatis provides a brief description about the command line programs, description are generated from the manual page of the commands
+
+## Alias
+<ol>
+<li> we can assign alias to most repetitive commands </li>
+<li> we simply need to specify the alias name and then specify the command to associate it with the alias </li>
+<li> alias are not saved after the reboot so we need to save them in ~/.bashrc </li>
+<li> we can remove alias from the unalias command </li>
+</ol>
+
+## Exit
+we use the exit command to exit from the shell, or alternatively logout 
