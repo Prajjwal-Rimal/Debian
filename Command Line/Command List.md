@@ -153,7 +153,7 @@ Less
 History
 
 	$ history
-	displays the list of all the commands theat have been used
+	displays the list of all the commands that have been used
 
 	$ ctrl + R 
 	opens a reverse search in which you can search for commands from the history.
