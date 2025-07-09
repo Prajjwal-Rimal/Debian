@@ -14,7 +14,7 @@
       <td>id -u(0 means root)</td>
     </tr>
     <tr>
-      <td>VTo check which user is the root user</td>
+      <td>To check which user is the root user</td>
       <td>getent passwd 0</td>
     </tr>
     <tr>
