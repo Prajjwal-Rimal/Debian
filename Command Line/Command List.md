@@ -325,12 +325,15 @@ Whatis
 Alias
 <ul>
 <li> to create a alias </li>
+	
 	$ alias ll='ls -la'
 
 <li> to save the alias permanently save it to bashrc </li>
+	
 	$ vim ~/.bashrc
 
 <li> to remove an alias </li>
+	
 	$ unalias ll
 
 </ul>
@@ -341,8 +344,11 @@ Alias
 Exit
 <ul>
 <li> to exit the terminal</li>
+
 	$ exit
+
 	$ logout if available
+
 </ul>
 </li>
 </ol>
