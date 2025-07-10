@@ -2,11 +2,12 @@
 1. one way to get superuser access is by using the SUDO command
 2. another command is the substitute user command 
 <ul>
-<li>su : Switch to root, but keep the existing environment</li>
-<li>su - : Switch to root but load the full root environment</li>
-<li>su bob : switch to bob, but keep the existing environment</li>
-<li>su - bob : switch to bob and load bobs environment</li>
+  <li>su (switch user/substitute user): Switch to root, but keep the existing environment.</li>
+  <li>su - : Switch to root, but load the full root environment.</li>
+  <li>su bob: Switch to bob, but keep the existing environment.</li>
+  <li>su - bob: Switch to bob and load Bob's environment.</li>
 </ul>
+
 
 3. <u>Environment</u> in Linux refers to a set of settings and variables such as : path, home, user, shell, lang, editor, ps1
 
