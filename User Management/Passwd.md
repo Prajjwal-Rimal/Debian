@@ -8,7 +8,11 @@ root:x:0:0:root:/root:/bin/bash
 <li>Username: root
 <li>User's password: x 
 the password is not really stored in this file, it's usually stored in the /etc/shadow file.  
-X => password is stored in the /etc/shadow file, * => user doesn't have login access, blank field user has no password.
+<ul>
+<li> X => password is stored in the /etc/shadow file </li> 
+<li> * => user doesn't have login access </li>
+<li> blank field user has no password. </li>
+</ul>
 <li>The user ID:0 means root user any other user is not 0
 <li>Primary group ID
 <li>GECOS field: for comments about the user
