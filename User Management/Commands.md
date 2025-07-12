@@ -81,7 +81,7 @@
 
 <li> to edit the /etc/passwd file 
 	
-		sudo vipw
+	sudo vipw
 
 
 </ul>
