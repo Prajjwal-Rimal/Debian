@@ -37,6 +37,16 @@
 
 5. in many distributions authentication doesn't simply rely on the shadow file and is managed by other mechanisms like PAM (Pluggable Authentication Module)
 
+6. we can edit the shadow file but it is not recommended, however if you wan to 
+
+		$ sudo cat /etc/shadow
+		# view the content of the file
+
+		$ sudo vim /etc/shadow
+		# to edit the shadow file
+
+7. instead of updating the shadow file it is recommended to use alternatives, discussed in management tool file.
+
 ##
 
 <u><b>prajjwal:$6$abc123...:19500:0:90:7:14:20000:</b></u>
