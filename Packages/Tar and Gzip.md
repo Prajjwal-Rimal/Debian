@@ -19,28 +19,28 @@
 
 		$ tar cvf tar1.tar file1 file2
 
-c = create 
+	c = create 
 <br>
-v = show what its doing
+	v = show what its doing
 <br>
-f = name of the output file
+	f = name of the output file
 
 		$ tar xvf tar1.tar
 
-x = extract 
+	x = extract 
 <br>
-v = show what it is doing
+	v = show what it is doing
 <br>
-f = name of the file to extract
+	f = name of the file to extract
 
 8.  to archive and compress we use both of the methods together and generate a compressed tarball file (.tar.gz)
 
 		$ tar czf archive.tar.gz file1 file2
 
-here everything for the c and f is same except that the z stands for compress using gzip
+	here everything for the c and f is same except that the z stands for compress using gzip
 
 		$ tar xzf archive.tar.gz
 
-this is used to decompress the compressed tarball file using gzip
+	this is used to decompress the compressed tarball file using gzip
 
 9. there are other types of files well but they are uncommon and have different compression and decompression methods
