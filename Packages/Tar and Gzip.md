@@ -19,19 +19,11 @@
 
 		$ tar cvf tar1.tar file1 file2
 
-	c = create 
-<br>
-	v = show what its doing
-<br>
-	f = name of the output file
+	c = create, v = show what its doing, f = name of the output file
 
 		$ tar xvf tar1.tar
 
-	x = extract 
-<br>
-	v = show what it is doing
-<br>
-	f = name of the file to extract
+	x = extract, v = show what it is doing, f = name of the file to extract
 
 8.  to archive and compress we use both of the methods together and generate a compressed tarball file (.tar.gz)
 
