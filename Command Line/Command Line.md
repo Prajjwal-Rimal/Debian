@@ -56,6 +56,32 @@ To see a detailed list of file use a long flag
 The  flags are options to the command. We can also combine the flags to execute them in the order they are opted.
 
 	ls -la or ls -al
+
+the output of ls -la is as follow:
+
+		drwxr-xr-x  2 root root 4096 Jul 17 09:20 ssh
+		-rw-r--r--  1 root root  123 Jul 15 18:00 config.txt
+
+
+* File type: First letter — d means directory, - means file, l means link.
+
+	First 3 characters: Permissions for the owner (user) — r (read), w (write), x (execute).
+
+	Second 3 characters: Permissions for the group — who can access the file if they’re in the same group.
+
+	Third 3 characters: Permissions for others (everyone else on the system).
+
+* Next field (number): Shows how many hard links (or subfolders if it's a directory).
+
+* user: The owner of the file or folder.
+
+* group: The group that owns the file.
+
+* size: The size of the file in bytes (folders usually show 4096).
+
+* date of modification: The last modified date and time.
+
+* file / folder: The name of the file or folder.
 </ol>
 
 ## Touch
