@@ -12,3 +12,8 @@
 3. this was about showing command in a better readable format but what if we want the command output to be shown in an terminal and also to be sent to a file
 
 		ls -la /etc | tee peanut.txt
+
+	* basically a T
+	* take input so that's from `ls -la /etc`
+	* the pipe command send the output to the second command `tee peanut.txt`
+	* the tee command makes it so that the output is displayed on the screen and is also written to the specified file
