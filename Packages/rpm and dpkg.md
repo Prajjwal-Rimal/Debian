@@ -16,5 +16,5 @@
 
 * list installed packages:
 
-	Debian: $ dpkg -l 3 l for list
-	rpm : $ rpm -qa # q for query and a for all
+		Debian: $ dpkg -l 3 l for list
+		rpm : $ rpm -qa # q for query and a for all
