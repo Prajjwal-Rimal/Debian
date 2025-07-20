@@ -31,14 +31,20 @@ PATH is a special environment variable that tells the shell where to look when y
 <br>
 <br>
 7. sometimes when we download a program from the internet and we try to run it we receive an error that's cause the path has not been set in the system.
+
   * to solve this we first need to locate our directory where the program is present
+
   * and then edit our `~/.basrc` and then include the path in the system `export PATH=$PATH:<insert the folders path>` or
+
 * echo 'export PATH=$PATH:<folder path> >> ~/.bashrc 
 
-	* uses echo to write the line export PATH=$PATH:<folder path> into the file ~/.bashrc without deleting what’s already there (because of >>). 
-	* In that line, PATH= sets the PATH variable to its current value plus the new folder <folder path>, separated by a colon : which divides folders in the PATH. 
-	* Since the line is written with single quotes, the $PATH part is saved exactly as $PATH (not replaced immediately). 
-	*  Later, when we open a new terminal or run the .bashrc file, the system replaces $PATH with the actual list of folders to update the search path permanently.
+* uses echo to write the line export PATH=$PATH:<folder path> into the file ~/.bashrc without deleting what’s already there (because of >>). 
+	
+* In that line, PATH= sets the PATH variable to its current value plus the new folder <folder path>, separated by a colon : which divides folders in the PATH. 
+
+* Since the line is written with single quotes, the $PATH part is saved exactly as $PATH (not replaced immediately). 
+
+*  Later, when we open a new terminal or run the .bashrc file, the system replaces $PATH with the actual list of folders to update the search path permanently.
 
 
 ##
