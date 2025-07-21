@@ -20,7 +20,7 @@
 
 5. environment variables have information that shell and other processes can use, make it easier to pass the same configuration to the system.
 
-6.`$echo  $PATH`
+6. `$echo  $PATH`
 <br>
 PATH is a special environment variable that tells the shell where to look when you type a command. 
 
