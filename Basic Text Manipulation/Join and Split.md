@@ -9,7 +9,7 @@
 3. since both the files have 1,2,3 the join statement matches the fields and joins the output so 1 matches with 1, 2 with 2 and so on
 <code>$join filename filename</code>
 <br>
-
+<br>
         file1.txt       file 2.txt
 
         1 John          1 Doe
