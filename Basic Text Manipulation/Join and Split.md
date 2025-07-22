@@ -7,7 +7,7 @@
 <br>
 <br>
 3. since both the files have 1,2,3 the join statement matches the fields and joins the output so 1 matches with 1, 2 with 2 and so on
-`$join <filename> <filename>`
+`$join filename filename`
 <br>
 
         file1.txt       file 2.txt
@@ -41,14 +41,14 @@
 
   * here we see that the files contain numbering in different columns to join this type of file we need to use the following command
 
-	`$ join -1 2 -2 1 <filename> <filename>`
+	`$ join -1 2 -2 1 filename filename`
 
 * -1 2 : use the second field from file 1
 * -2 1 : use the first field from file 2
 * we are basically specifying the key values to join at
 * to join the file both of the files must be sorted by the index to that we can use 
     <br>
-    `$sort <filename> -o file1.txt`, -o flag represent output, tells us what our output file be named as
+    `$sort filename -o file1.txt`, -o flag represent output, tells us what our output file be named as
 * the join command doesn't necessarily need numbers if it was a,a in both the column it would work, if it was apple apple it would work, it just needs a common value in both the fields and is case sensitive
 <br>
 <br>
@@ -57,12 +57,12 @@
 <br>
 6. just like join we can also split the files, split is used to break a file into smaller parts
 <br>
-`$ split <filename>`
+`$ split filename`
 <br>
 by default the file is split at every 100 lines but we can change this behavior with flags
-    * -l n : n is the number of lines to be split at `split -l 50 <filename>`
-    * -b n : used to split by size (1K,1M,1G) `split -b 1M <filename>`
-    * --additional-suffix : used to add the required extensions to the necessary files ` split <filename> --additional-suffix=.txt`, this cannot be used with the join command for join use the stdout (>) redirection method
+    * -l n : n is the number of lines to be split at `split -l 50 filename`
+    * -b n : used to split by size (1K,1M,1G) `split -b 1M filename`
+    * --additional-suffix : used to add the required extensions to the necessary files ` split filename --additional-suffix=.txt`, this cannot be used with the join command for join use the stdout (>) redirection method
 <br>
 <br>
 7. join use case:
