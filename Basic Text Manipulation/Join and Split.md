@@ -7,7 +7,7 @@
 <br>
 <br>
 3. since both the files have 1,2,3 the join statement matches the fields and joins the output so 1 matches with 1, 2 with 2 and so on
-`$join filename filename`
+<code>$join filename filename</code>
 <br>
 
         file1.txt       file 2.txt
@@ -76,10 +76,10 @@ by default the file is split at every 100 lines but we can change this behavior 
 <br>
 8. sort use case:
 
-* Prepare files for `join` (since it requires sorted inputs)
+* Prepare files for join (since it requires sorted inputs)
 * Sort logs by timestamps or severity levels
 * Arrange records by scores, prices, or names
-* Remove duplicates using `sort | uniq`
+* Remove duplicates using sort | uniq
 * Organize tabular or CSV data
 <br>
 <br>
