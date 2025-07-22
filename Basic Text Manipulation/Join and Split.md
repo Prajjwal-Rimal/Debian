@@ -10,6 +10,7 @@
 <code>$join filename filename</code>
 <br>
 <br>
+
         file1.txt       file 2.txt
 
         1 John          1 Doe
