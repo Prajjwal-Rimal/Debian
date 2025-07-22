@@ -51,6 +51,7 @@
     <br>
     `$sort filename -o file1.txt`, -o flag represent output, tells us what our output file be named as
 * the join command doesn't necessarily need numbers if it was a,a in both the column it would work, if it was apple apple it would work, it just needs a common value in both the fields and is case sensitive
+* if the files aern't sorted before join it will not be able to produce the correct output
 <br>
 <br>
 5. if we do not have indexes then the join command wont work
@@ -83,6 +84,12 @@ by default the file is split at every 100 lines but we can change this behavior 
 * Sort logs by timestamps or severity levels
 * Arrange records by scores, prices, or names
 * Remove duplicates using sort | uniq
+    * `sort file.txt | uniq > sortfile.txt`
+    * this sort the file.txt and the pipe operator takes that output and sends it to the uniq function
+    * when duplicate values are removed and the stdout operator send the output to a new file
+    * by defaullt the uniq command shows the output to the terminal screen
+    * to overwrite the existing file we need to create a temp file and then overwrite it
+        `sort file.txt | uniq > temp && mv temp file.txt`
 * Organize tabular or CSV data
 <br>
 <br>
