@@ -58,12 +58,14 @@
 <br>
 6. just like join we can also split the files, split is used to break a file into smaller parts
 <br>
-`$ split filename`
+<code> $ split filename </code>
 <br>
 by default the file is split at every 100 lines but we can change this behavior with flags
+
     * -l n : n is the number of lines to be split at `split -l 50 filename`
     * -b n : used to split by size (1K,1M,1G) `split -b 1M filename`
     * --additional-suffix : used to add the required extensions to the necessary files ` split filename --additional-suffix=.txt`, this cannot be used with the join command for join use the stdout (>) redirection method
+    
 <br>
 <br>
 7. join use case:
