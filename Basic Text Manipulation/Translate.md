@@ -24,7 +24,7 @@ this deletes the characters after the -d flag n this case ello
         hello
         output: h
 
-5. squeez repeated characters (-s : squeez):
+5. squeeze repeated characters (-s : squeeze):
 `$ tr -s '2'`
 <br>
 combines repeated characters into one
@@ -32,3 +32,5 @@ combines repeated characters into one
         $ tr -s '2'
         1222223
         123
+
+<b><u> only works with characters or a range of characters not on words, line or paragraphs </u></b>
