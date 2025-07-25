@@ -51,3 +51,6 @@
 6. unique doesn't detect the duplicate values unless they are adjacent, in case we have an file where we need to detect uniques and the values are not adjacent we can use the `sort` command sort the file use a `| pipe operator` to process and send the output to the `uniq` command
 
 ` $ sort file.txt | uniq`
+
+
+<b><u> uniq and sort work on Single words, Full sentences (as long as each sentence is on its own line), Numbers and numerical values,Paragraphs only work if the entire paragraph is written on a single line. </u></b>
