@@ -86,8 +86,8 @@ this is not available in all Linux distro by default
 | `|` |```	grep -E 'gray|grey|grape' sample.txt``` | gray grey | basically an or operator shows the output that matches |
 | ?     |```grep -E 'colou?r' sample.txt```| color colour | basically a boolean operator, means o or 1 appearance, so when we say colou?r it means u can exist or it can not so it checks for u in between colo(starting) and r(ending), but if we didn't specify the ending it also shows colouur, usually we keep the ending |
 | {n}|```grep -P 'a{3}' sample.txt```| aaa aaaa aaaaa | basically checks each word for the consecutive occurrence of the pattern, returns all matching the criteria to make it unique we need to pair it with an anchor points ```grep -P '^a{3}' sample.txt``` | 
-| {n,}  |```grep -P 'a{3,}' sample.txt```| aaa aaaa aaaaa |  |
-| {n,m} |```	grep -P 'a{3,4}' sample.txt```| aaa aaaa aaaaa | basically the same as the above two commands defines the minimum number of occurrences and maximum number of occurences, basically saying hey show me the word which has at least 3 a's and a maximum of 4 a's consecutively present in it, but it shows all the output and even the one with 5 a's the last a is basically ignored and the output is shown to the screen if we want the exact wwe need to use this command ```grep -P '^a{3}' sample.txt```|
+| {n,}  |```grep -P 'a{3,}' sample.txt```| aaa aaaa aaaaa | matches 3 consecutive a's at minimum upto infinity |
+| {n,m} |```	grep -P 'a{3,4}' sample.txt```| aaa aaaa aaaaa | same as the above two commands defines the minimum number of occurrences and maximum number of occurences, basically saying hey show me the word which has at least 3 a's and a maximum of 4 a's consecutively present in it, but it shows all the output and even the one with 5 a's the last a is ignored and the output is shown to the screen if we want the exact wwe need to use this command ```grep -P '^a{3}' sample.txt```|
 
 5. Anchors and Boundaries
 <br>
