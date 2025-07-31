@@ -11,4 +11,12 @@ concatenate
 1234 is a number
 failed
 success
+gray
+grey
+a
+aa
+aaa
+aaaa
+aaaaa
+colouur
 
