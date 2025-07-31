@@ -75,15 +75,12 @@ this is not available in all Linux distro by default
 | [ ] |```grep 'gr[ae]y' sample.txt``` | gray grey | searching for characters present in the list, looks at the range specified in the bracket , checks for the character one by one combined with the starting and ending values, **only matches one character at a time** |
 | \  |```grep '\:' sample.txt```  | Error **:** file not found | it is used to search for special characters |
 
-4. Special Characters (Meta Characters):
-<br>
-
 | Pattern  | Usage | Output  | Explanation |
 | -------- | ----- | ------- | ----------- |
 | .  |``` grep c.t sample.txt```  | **cat** \n con**cat**enate| it is used to search for one character between the specified points, newlines and single characters do not count ie b\\n or b|
 | *  |```grep -E 'lo*l' sample.txt```  | ll lol lool | show the repetition of last character 0 or more time, basically saying that show the output for l followed by 0 or more o's and end them at the character l |
 | +  |```grep -E 'lo+l' sample.txt``` | lol lool | same thing as `*` but the character has to appear at least once |
-| `|` |```grep -E 'gray|grey|grape' sample.txt``` | gray grey | an or operator shows the output that matches |
+| `|` | `grep -E 'gray\|grey\|grape' sample.txt` | gray grey | an or operator shows the output that matches |
 | ?     |```grep -E 'colou?r' sample.txt```| color colour | basically a boolean operator, means o or 1 appearance, so when we say colou?r it means u can exist or it can not so it checks for u in between colo(starting) and r(ending), but if we didn't specify the ending it also shows colouur, usually we keep the ending |
 | {n}|```grep -P 'a{3}' sample.txt```| aaa aaaa aaaaa | basically checks each word for the consecutive occurrence of the pattern, returns all matching the criteria to make it unique we need to pair it with an anchor points ```grep -P '^a{3}' sample.txt``` | 
 | {n,}  |```grep -P 'a{3,}' sample.txt```| aaa aaaa aaaaa | matches 3 consecutive a's at minimum upto infinity |
