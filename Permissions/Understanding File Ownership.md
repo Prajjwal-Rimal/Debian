@@ -18,4 +18,4 @@
    - allows a group of users to access and collaborate on files stored in a shared location
    - group permissions control who can read, modify, or execute files within that shared environment
    - requires proper setup so that all users in the group have compatible user and group IDs for smooth access
-- like google docs, drive
+   - like google docs, drive
