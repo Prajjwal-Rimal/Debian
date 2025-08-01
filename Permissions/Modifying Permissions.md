@@ -3,8 +3,9 @@
 2. when files and directories are created there <u>permissions are set to default by setting called **umask** </u>, this setting usually write protects a file for everyone besides the user, group and others can not write to it 
 3. `chmod` command can change permission for one or more files for all the 3 fields: user, group, others, the permissions can only be set by the user (file owner) and the root user
 4. there are two type of permissions:
+
 | Relative Permission | Absolute permission |
-| ------------- | ------------- |
+| ------------------- | ------------------- |
 | only changes the permissions specified in the command line and leaves others as they were  | this is used to set all 9 permissions using octal numbers |
 | syntax: `chmod category operation permission filename`  | syntax: `chmod permissions filename`  |
 | example: `chmod u+x file.txt` | example: `chmod 775 file.txt`  |
