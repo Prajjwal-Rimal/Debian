@@ -39,4 +39,4 @@ understanding the output above
 - **group** by default it is a group which a owner belongs to
 - **4096** size of the files in bytes , this is only the character count for the file and not the total space it occupies on the disk, this means someone wrote 4096 characters symbols or binary data into the file, for directories it means that the internal table size of the directory is 4096 bytes, the space occupied by a file on the disk is usually larger to see the actual space use `du -h foldername`
 - **Jul 18 08:05** represent when the file was last updated / modified, stored to the nearest second, it is modified if its contents have been changed in some way, permission and ownership change do not contribute to modification 
--**Documents** filename arranged in ASCII sequence capital letters come first, if we have a important file that we would like to view up top its better to name it in uppercase
+- **Documents** filename arranged in ASCII sequence capital letters come first, if we have a important file that we would like to view up top its better to name it in uppercase
